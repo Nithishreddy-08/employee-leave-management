@@ -94,6 +94,18 @@ At the beginning of a new year, employee leave balances are reset to:
 
 ---
 
+
+### One small correction before you paste it
+
+Because your actual project currently uses **`NoOpPasswordEncoder`**, I deliberately did **not** claim that passwords are encrypted. Also, the README says "password verification" rather than "encrypted passwords", which accurately matches your current implementation.
+
+After you paste the README into GitHub, **commit and push it**:
+
+```bash
+git add README.md
+git commit -m "Added project documentation"
+git push
+
 ## 📁 Project Structure
 
 ```text
